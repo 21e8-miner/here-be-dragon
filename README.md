@@ -3,7 +3,7 @@
 > *Fly the dragon kite beneath the crown of lamps.*  
 > *Rendered in the haunting style of an antique woodcut & a night of ten thousand lamps.*
 
-🎮 **[Play Live on GitHub Pages](https://21e8-miner.github.io/ira-dei/)**
+🎮 **[Play Live on GitHub Pages](https://21e8-miner.github.io/here-be-dragon/)**
 
 ---
 
@@ -40,4 +40,4 @@
 ## 🚀 Live Demo
 
 Play directly in your browser:  
-👉 **https://21e8-miner.github.io/ira-dei/**
+👉 **https://21e8-miner.github.io/here-be-dragon/**
