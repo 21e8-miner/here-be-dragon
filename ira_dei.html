@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0b0806"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-<title>IRA DEI — the Wrath-Kite</title>
+<title>HERE BE DRAGON — the Wrath-Kite</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html,body{
@@ -152,7 +152,7 @@ const CR={cx:480,rest:150,hold:470,rx:290,ry:74,irx:215,iry:58,
   brA:2.705,brW:.46,apex:{x:480,y:-42}};
 const STRL=700;
 const TIER_NAMES=['','THE BIRDS THICKEN','THE FLAMES FALL FASTER','OWLS AMONG THE BIRDS',
- 'THE CROWN GROWS RESTLESS','THE NIGHT DEEPENS','THE WRATH QUICKENS','THE CROWN HUNGERS','IRA DEI'];
+ 'THE CROWN GROWS RESTLESS','THE NIGHT DEEPENS','THE WRATH QUICKENS','THE CROWN HUNGERS','HERE BE DRAGON'];
 
 /* ---------- state ---------- */
 let time=0,last=0,bgc=null;
@@ -722,13 +722,13 @@ function drawKite(){
   ctx.lineTo(-80,-50);ctx.lineTo(-77,-42);ctx.lineTo(-74,-47);ctx.lineTo(-72,-40);
   ctx.closePath();ctx.fill();
   ctx.fillStyle='#ece1c2';ctx.strokeStyle='#17120c';ctx.lineWidth=2.5;
-  ctx.beginPath();ctx.ellipse(-2,0,50,15,-.06,0,TAU);ctx.fill();ctx.stroke();
-  ctx.fillStyle='#17120c';ctx.font='bold 14px Georgia';
+  ctx.beginPath();ctx.ellipse(-2,0,52,15,-.06,0,TAU);ctx.fill();ctx.stroke();
+  ctx.fillStyle='#17120c';ctx.font='bold 10.5px Georgia';
   ctx.textAlign='center';ctx.textBaseline='middle';
-  const word='IRA DEI';let tw=0;const ws=[];
-  for(const ch of word){const w2=ctx.measureText(ch).width;ws.push(w2);tw+=w2+2;}
-  let X=-2-tw/2+1;
-  for(let i=0;i<word.length;i++){ctx.fillText(word[i],X+ws[i]/2,1.5);X+=ws[i]+2;}
+  const word='HERE BE DRAGON';let tw=0;const ws=[];
+  for(const ch of word){const w2=ctx.measureText(ch).width;ws.push(w2);tw+=w2+1;}
+  let X=-2-tw/2+0.5;
+  for(let i=0;i<word.length;i++){ctx.fillText(word[i],X+ws[i]/2,1.5);X+=ws[i]+1;}
   ctx.globalAlpha=1;
   if(game.ward>0){
     ctx.strokeStyle='rgba(222,208,170,.55)';ctx.lineWidth=2.5;
@@ -876,12 +876,12 @@ function drawMenu(){
   for(const g of ghost){ctx.moveTo(g[0],g[1]);ctx.lineTo(g[0]+g[2],g[1]);}
   ctx.stroke();
   ctx.textAlign='center';ctx.textBaseline='alphabetic';ctx.lineJoin='round';
-  ctx.font='bold 70px Georgia';
+  ctx.font='bold 58px Georgia';
   ctx.strokeStyle='rgba(14,10,6,.9)';ctx.lineWidth=9;
-  ctx.strokeText('IRA DEI',W/2,200);
-  ctx.fillStyle='#efe4c4';ctx.fillText('IRA DEI',W/2,200);
+  ctx.strokeText('HERE BE DRAGON',W/2,200);
+  ctx.fillStyle='#efe4c4';ctx.fillText('HERE BE DRAGON',W/2,200);
   ctx.font='italic 20px Georgia';ctx.fillStyle='#c9bb95';
-  ctx.fillText('fly the wrath-kite beneath the crown of lamps',W/2,238);
+  ctx.fillText('fly the dragon kite beneath the crown of lamps',W/2,238);
   ctx.font='17px Georgia';ctx.fillStyle='#d8cba6';
   ['HOLD — the kite climbs · RELEASE — it sinks · the string is short',
    'gather fallen lamp-flames · birds strike · wasp-tails of night sting not, but bats do',
@@ -895,7 +895,7 @@ function drawMenu(){
   ctx.font='15px Georgia';ctx.fillStyle='#a89770';
   ctx.fillText('BEST · '+game.best,W/2,512);
   ctx.font='italic 12px Georgia';ctx.fillStyle='rgba(190,175,140,.45)';
-  ctx.fillText('after the woodcut of the wrath-kite & the night of ten thousand lamps',W/2,H-18);
+  ctx.fillText('after the woodcut of the dragon-kite & the night of ten thousand lamps',W/2,H-18);
 }
 function drawOver(){
   ctx.fillStyle='rgba(8,6,3,.55)';ctx.fillRect(0,0,W,H);

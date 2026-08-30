@@ -1,6 +1,6 @@
-# IRA DEI — The Wrath-Kite
+# HERE BE DRAGON (The Wrath-Kite)
 
-> *Fly the wrath-kite beneath the crown of lamps.*  
+> *Fly the dragon kite beneath the crown of lamps.*  
 > *Rendered in the haunting style of an antique woodcut & a night of ten thousand lamps.*
 
 🎮 **[Play Live on GitHub Pages](https://21e8-miner.github.io/ira-dei/)**
@@ -9,9 +9,9 @@
 
 ## 📖 About
 
-**IRA DEI** is an atmospheric arcade flight game of tension, timing, and sacred flame collection.
+**HERE BE DRAGON** is an atmospheric arcade flight game of tension, timing, and sacred flame collection.
 
-- **Hold to Climb, Release to Sink**: The kite rises against gravity on a taut string anchored to the dancer below.
+- **Hold to Climb, Release to Sink**: The dragon kite rises against gravity on a taut string anchored to the dancer below.
 - **Gather Falling Lamp-Flames**: Build flame chains and multipliers as the tiers deepen.
 - **Beware the Birds of Night**: Bats dart and owls dive through the dark.
 - **Thread the Crown of Lamps**: When the great luminous ring descends, stay low, then thread cleanly through its breach for a massive flame shower!
